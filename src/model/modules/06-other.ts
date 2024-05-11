@@ -57,6 +57,13 @@ export default <AppItem[]>[
     name: 'Docker',
   },
   {
+    homepage: 'https://hub.docker.com/',
+    repository: 'https://github.com/docker',
+    icon: 'docker.png',
+    keywords: ['docker', 'hub', 'images'],
+    name: 'DockerHub',
+  },
+  {
     homepage: 'http://nginx.org/',
     repository: 'https://github.com/nginx',
     icon: 'nginx.png',
@@ -105,4 +112,12 @@ export default <AppItem[]>[
     keywords: ['v8'],
     name: 'V8',
   },
+  {
+    homepage: 'https://www.88sheji.cn/',
+    repository: '',
+    icon: '88sheji.png',
+    keywords: ['88sheji', 'nav', '导航', 'sheji', 'sj'],
+    name: '拜拜导航',
+  },
+  
 ]

@@ -8,6 +8,22 @@ export default <AppItem[]>[
     lessRadius: true,
   },
   {
+    homepage: 'https://vue-i18n.intlify.dev/',
+    repository: 'https://github.com/intlify/vue-i18n-next',
+    icon: 'vuei18n.png',
+    keywords: ['vue'],
+    name: 'Vue多语言',
+    lessRadius: true,
+  },
+  {
+    homepage: 'https://router.vuejs.org/zh/',
+    repository: 'https://github.com/vuejs/router',
+    icon: 'vue.png',
+    keywords: ['vue-router', 'vue', 'router'],
+    name: 'Vue路由',
+    lessRadius: true,
+  },
+  {
     homepage: 'https://react.dev/',
     repository: 'https://github.com/facebook/react/',
     icon: 'react.png',
@@ -422,4 +438,11 @@ export default <AppItem[]>[
     keywords: ['快应用', 'kuaiyingyong'],
     name: '快应用',
   },
+  {
+    homepage: 'https://aisuda.bce.baidu.com/amis/zh-CN/docs/index',
+    icon: 'amis.png',
+    keywords: ['低代码', 'ddm', 'amis'],
+    name: 'AMIS框架',
+  },
+  
 ]

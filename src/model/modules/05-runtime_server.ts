@@ -7,6 +7,14 @@ export default <AppItem[]>[
     name: 'NodeJS',
   },
   {
+    homepage: 'https://nodejs.org/en',
+    repository: '',
+    icon: 'nodejs.png',
+    keywords: ['nodejs'],
+    name: 'NodeJS官网',
+  },
+  
+  {
     homepage: 'https://deno.land/',
     repository: 'https://github.com/denoland',
     icon: 'deno.png',
