@@ -125,6 +125,20 @@ export default <AppItem[]>[
     name: 'cpolar',
     lessRadius: true,
   },
-  
-  
+  {
+    homepage: 'https://192.168.2.30:38677/6ee68c75',
+    repository: '',
+    icon: 'vs.png',
+    keywords: ['vs','30'],
+    name: 'VS30开发',
+    lessRadius: true,
+  },
+  {
+    homepage: 'https://192.168.2.31:39306/a868bbcf',
+    repository: '',
+    icon: 'vs.png',
+    keywords: ['vs','31'],
+    name: 'VS31测试',
+    lessRadius: true,
+  },
 ]
