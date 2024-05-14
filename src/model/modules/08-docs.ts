@@ -34,5 +34,18 @@ export default <AppItem[]>[
     keywords: ['it', 'base64', 'aes', 'xml'],
     name: 'canal同步',
   },
-  
+  {
+    homepage: 'https://doc.thinkphp.cn/v8_0/preface.html',
+    repository: '',
+    icon: 'php.png',
+    keywords: ['php'],
+    name: 'ThinkPHP8.0文档',
+  },
+  {
+    homepage: 'https://openinula.net/',
+    repository: '',
+    icon: 'openinula.png',
+    keywords: ['openinula','huawei','ui','open','la'],
+    name: 'openInula',
+  },
 ]
