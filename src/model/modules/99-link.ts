@@ -23,5 +23,13 @@ export default <AppItem[]>[
     name: 'Gitee',
     lessRadius: true,
   },
+  {
+    homepage: 'https://git.zhimeiguoji.com/help/ci/quick_start/index.md',
+    repository:'',
+    icon: 'link.png',
+    keywords: ['gitlab', 'ci', 'cd'],
+    name: 'GitlabCi',
+    lessRadius: true,
+  }
   
 ]
