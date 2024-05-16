@@ -36,6 +36,32 @@ export default <AppItem[]>[
     icon: 'link.png',
     keywords: ['nginx', 'f5', 'fz', '负载均衡', 'fzjh', 'jh'],
     name: 'Nginx负载均衡',
+  },
+  {
+    homepage: 'https://d2.pub/doc/d2-advance/',
+    repository: 'https://github.com/d2-projects/d2-advance',
+    icon: 'link.png',
+    keywords: ['d2admin', 'ui'],
+    name: 'd2admin模板v2'
+  },
+  {
+    homepage: 'https://d2.pub/',
+    repository: 'https://github.com/d2-projects/d2-admin',
+    icon: 'link.png',
+    keywords: ['d2admin', 'ui'],
+    name: 'd2admin模板v1'
+  },
+  {
+    homepage: 'https://wanago.io/2021/01/25/api-nestjs-chat-websockets/',
+    icon: 'link.png',
+    keywords: ['nestjs', 'backend', 'websocket', 'api'],
+    name: 'NestjsChat'
+  },
+  {
+    homepage: 'https://docs.opencloudos.org/OCS/Virtualization_and_Containers_Guide/Docker_guide/',
+    icon: 'link.png',
+    keywords: ['open', 'os', 'cloud', 'docker'],
+    name: 'OpenCloudOS'
   }
   
 ]
