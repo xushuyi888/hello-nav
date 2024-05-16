@@ -30,6 +30,12 @@ export default <AppItem[]>[
     keywords: ['gitlab', 'ci', 'cd'],
     name: 'GitlabCi',
     lessRadius: true,
+  },
+  {
+    homepage: 'https://www.nginx-cn.net/',
+    icon: 'link.png',
+    keywords: ['nginx', 'f5', 'fz', '负载均衡', 'fzjh', 'jh'],
+    name: 'Nginx负载均衡',
   }
   
 ]
