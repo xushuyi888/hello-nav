@@ -141,4 +141,10 @@ export default <AppItem[]>[
     name: 'VS31测试',
     lessRadius: true,
   },
+  {
+    homepage: 'http://bmsdocs.zhimeiguoji.cn/',
+    icon: 'link.png',
+    keywords: ['bms', 'bmsdocs'],
+    name: 'BMS文档'
+  }
 ]
