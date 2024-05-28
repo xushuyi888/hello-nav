@@ -52,6 +52,13 @@ export default <AppItem[]>[
     name: 'd2admin模板v1'
   },
   {
+    homepage: 'https://d2.pub/doc/d2-admin/',
+    repository: 'https://github.com/d2-projects/d2-admin',
+    icon: 'link.png',
+    keywords: ['d2admin', 'ui'],
+    name: 'd2admin文档'
+  },
+  {
     homepage: 'https://wanago.io/2021/01/25/api-nestjs-chat-websockets/',
     icon: 'link.png',
     keywords: ['nestjs', 'backend', 'websocket', 'api'],

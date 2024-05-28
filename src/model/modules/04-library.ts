@@ -285,6 +285,13 @@ export default <AppItem[]>[
     name: 'Lodash',
   },
   {
+    homepage: 'https://www.lodashjs.com/',
+    icon: 'lodash.png',
+    keywords: ['lodash'],
+    name: 'Lodash中文',
+  },
+  
+  {
     homepage: 'https://vueuse.org/',
     repository: 'https://github.com/vueuse/vueuse',
     icon: 'vueuse.png',
