@@ -76,4 +76,10 @@ export default <AppItem[]>[
     keywords: ['bookmark', 'mark', 'shuqian', 'sq'],
     name: '喜欢书签',
   },
+  {
+    homepage: 'https://biemoyu.com/',
+    icon: 'link.png',
+    keywords: ['bmy', 'mark', 'shuqian', 'sq'],
+    name: '别摸鱼导航',
+  }
 ]
