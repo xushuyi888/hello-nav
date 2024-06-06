@@ -25,7 +25,7 @@ export default <AppItem[]>[
   },
   {
     homepage: 'https://git.zhimeiguoji.com/help/ci/quick_start/index.md',
-    repository:'',
+    repository: '',
     icon: 'link.png',
     keywords: ['gitlab', 'ci', 'cd'],
     name: 'GitlabCi',
@@ -42,33 +42,38 @@ export default <AppItem[]>[
     repository: 'https://github.com/d2-projects/d2-advance',
     icon: 'link.png',
     keywords: ['d2admin', 'ui'],
-    name: 'd2admin模板v2'
+    name: 'd2admin模板v2',
   },
   {
     homepage: 'https://d2.pub/',
     repository: 'https://github.com/d2-projects/d2-admin',
     icon: 'link.png',
     keywords: ['d2admin', 'ui'],
-    name: 'd2admin模板v1'
+    name: 'd2admin模板v1',
   },
   {
     homepage: 'https://d2.pub/doc/d2-admin/',
     repository: 'https://github.com/d2-projects/d2-admin',
     icon: 'link.png',
     keywords: ['d2admin', 'ui'],
-    name: 'd2admin文档'
+    name: 'd2admin文档',
   },
   {
     homepage: 'https://wanago.io/2021/01/25/api-nestjs-chat-websockets/',
     icon: 'link.png',
     keywords: ['nestjs', 'backend', 'websocket', 'api'],
-    name: 'NestjsChat'
+    name: 'NestjsChat',
   },
   {
     homepage: 'https://docs.opencloudos.org/OCS/Virtualization_and_Containers_Guide/Docker_guide/',
     icon: 'link.png',
     keywords: ['open', 'os', 'cloud', 'docker'],
-    name: 'OpenCloudOS'
-  }
-  
+    name: 'OpenCloudOS',
+  },
+  {
+    homepage: 'https://www.likebookmark.com/',
+    icon: 'likebookmark.png',
+    keywords: ['bookmark', 'mark', 'shuqian', 'sq'],
+    name: '喜欢书签',
+  },
 ]
