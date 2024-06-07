@@ -81,5 +81,11 @@ export default <AppItem[]>[
     icon: 'link.png',
     keywords: ['bmy', 'mark', 'shuqian', 'sq'],
     name: '别摸鱼导航',
+  },
+  {
+    homepage: 'https://www.istoreos.com/',
+    icon: 'link.png',
+    keywords: ['router','os','istoreos','云存储','路由','网络存储','存储','NAS'],
+    name: 'iStoreOS网络存储',
   }
 ]
