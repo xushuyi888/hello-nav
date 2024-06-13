@@ -87,5 +87,11 @@ export default <AppItem[]>[
     icon: 'link.png',
     keywords: ['router','os','istoreos','云存储','路由','网络存储','存储','NAS'],
     name: 'iStoreOS网络存储',
+  },
+  {
+    homepage: 'https://www.topgoer.com/',
+    icon: 'link.png',
+    keywords: ['golang', 'go', 'client'],
+    name: 'Go学习',
   }
 ]
