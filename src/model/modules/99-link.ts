@@ -93,5 +93,11 @@ export default <AppItem[]>[
     icon: 'link.png',
     keywords: ['golang', 'go', 'client'],
     name: 'Go学习',
+  },
+  {
+    homepage: 'https://www.nushell.sh/zh-CN/',
+    icon: 'link.png',
+    keywords: ['nushell', 'sh', 'shell'],
+    name: 'NuShell',
   }
 ]
