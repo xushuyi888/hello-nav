@@ -99,5 +99,11 @@ export default <AppItem[]>[
     icon: 'link.png',
     keywords: ['nushell', 'sh', 'shell'],
     name: 'NuShell',
+  },
+  {
+    homepage: 'http://emoji.wiicha.com/index/emoji/moreemoji.html',
+    icon: 'link.png',
+    keywords: ['emoji', 'emo', 'bq', '字符'],
+    name: 'emoji字符'
   }
 ]
