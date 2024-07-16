@@ -162,5 +162,10 @@ export default <AppItem[]>[
     icon: 'link.png',
     keywords: ['bms', 'bmsdocs'],
     name: 'BMS文档'
+  },{
+    homepage:'https://192.168.2.16:5001/',
+    icon: 'synology.png',
+    keywords: ['nas'],
+    name: 'JSNAS2'
   }
 ]
