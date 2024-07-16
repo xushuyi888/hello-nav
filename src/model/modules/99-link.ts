@@ -105,5 +105,11 @@ export default <AppItem[]>[
     icon: 'link.png',
     keywords: ['emoji', 'emo', 'bq', '字符'],
     name: 'emoji字符'
+  },
+  {
+    homepage: 'https://onedev.io/',
+    icon: 'link.png',
+    keywords: ['devops', 'dev', 'ops'],
+    name: 'DevOps1'
   }
 ]
