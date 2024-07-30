@@ -7,7 +7,8 @@
     }
     &__title {
       font-size: 36px;
-      font-weight: bold;
+      font-weight: normal;
+      font-style: normal;
       font-family: 'bi';
       margin-bottom: 15px;
       color: var(--nav-header-color);
@@ -24,7 +25,11 @@
   }
   &.reverse {
     .app {
+      transition: transform 0.8s cubic-bezier(0.6, 0.6, 0, 1);
       transform: rotateY(-180deg);
+      * {
+        transition: none !important;
+      }
     }
     .app-back {
       transform: rotateY(0deg);
@@ -33,6 +38,16 @@
     .app-placeholder {
       transform: rotateY(0deg);
       background: var(--nav-app-bg-setting);
+    }
+  }
+  &:not(.reverse) {
+    .app-back {
+      transition:
+        background 0.3s,
+        transform 0.8s cubic-bezier(0.6, 0.6, 0, 1);
+      * {
+        transition: none !important;
+      }
     }
   }
 }

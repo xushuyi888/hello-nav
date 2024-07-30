@@ -111,6 +111,7 @@ export default <AppItem[]>[
     icon: 'inkline.png',
     keywords: ['inkline', 'vue', 'ui'],
     name: 'Inkline',
+    darkInvert: true,
   },
   {
     homepage: 'https://veui.dev/',
@@ -624,21 +625,10 @@ export default <AppItem[]>[
     name: 'UI8',
   },
   {
-    homepage: 'http://www.sooui.com/',
-    icon: 'sooui.png',
-    keywords: ['sooui', 'ui', 'h5', 'ar', 'vr', '设计'],
-    name: '搜UI',
-  },
-  {
-    homepage: 'https://www.ui.cn/',
-    icon: 'uicn.png',
-    keywords: ['ui', 'jh', 'ty', '设计', '交互', '体验'],
-    name: 'UICN用户体验设计平台',
-  },
-  {
-    homepage: 'https://www.uisdc.com/',
-    icon: 'youshe.png',
-    keywords: ['youshe', 'ui', 'ty', '设计', '交互', '体验'],
-    name: '优设',
+    homepage: 'https://layers.to/',
+    icon: 'layers.png',
+    keywords: ['layers'],
+    name: 'Layers',
+    darkInvert: true,
   },
 ]
