@@ -1,0 +1,36 @@
+name: 自动更新
+on:
+  schedule:
+    - cron: '30 0 1 * *' # 定时任务 每8个小时更新一次reference 21 */8 * * *
+  workflow_dispatch:       # 手动运行
+
+env: # 设置环境变量
+  TZ: Asia/Shanghai # 时区（设置时区可使页面中的`最近更新时间`使用时区时间）
+
+jobs:
+  build: # 自定义名称
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚜 拉取最新代码
+        uses: actions/checkout@v3
+        with:
+          ref: 'v1'
+          repository: 'xushuyi888/hello-nav'
+
+      - name: ♻️ 编译静态文件
+        run: |
+          npm install
+          npm run build
+
+      - name: 🎉安装coscmd
+        run: sudo pip install coscmd
+
+      - name: 💾 配置COS
+        env:
+          SECRET_ID: ${{ secrets.SECRET_ID }}
+          SECRET_KEY: ${{ secrets.SECRET_KEY }}
+          BUCKET: ${{ vars.BUCKET_NAME }}
+          REGION: ap-guangzhou
+        run: coscmd config -a $SECRET_ID -s $SECRET_KEY -b $BUCKET -r $REGION
+      - name: 🚁 部署到腾讯云COS
+        run: coscmd upload -r ./dist/ / --ignore "./.git/*"
